@@ -2,7 +2,7 @@ function createGoogleTranslateWidget() {
     const translateDiv = document.createElement('div');
     translateDiv.id = 'google_translate_element';
 
-    const targetDiv = document.querySelector('.one-page-cover-info');
+    const targetDiv = document.querySelector('.cover__header-content-title');
 
     targetDiv.parentNode.insertBefore(translateDiv, targetDiv.nextSibling);
 
